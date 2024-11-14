@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>진제리의 발로란트 세팅</title>
+        <title>JinJerry's Valorant Info</title>
         <meta charset="utf-8">
-        <style>
-            ol{
-                border:15px solid green; 
-                width: 100px;;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1><a href="main.html">JinJerry Valorant Settings</a></h1>
-        <ol>
-            <li><a href="mouse.html">마우스 세팅</a></li>
-            <li><a href="keyboard.html">키보드 세팅</a></li>
-            <li><a href="monitor.html">모니터 세팅</a></li>
-            <li><a href="headset.html">헤드셋 세팅</a></li>
-            <li><a href="mousepad.html">마우스패드 세팅</a></li>
-        </ol>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <h2>JinJerry's Valorant Info</h2>
-        <p>이 페이지에서는 <u>개발자이자 유튜브 쇼츠 제작자</u>인 <strong>JinJerry</strong>의 간단한 발로란트 일기장이자 설정 공유 사이트입니다</p>
-        <img src="stats_11_13.png" width="50%">
-        <p>현재 날짜인 <u>2024년 11월 13일</u> 기준으로 달성한 게임 내용/스텟입니다</p>
+        <h1><a href="main.html">JinJerry Valorant Info</a></h1>
+        <div id="grid">
+            <ul class="menu">
+                <li><a class menulink href="mouse.html">Mouse Info</a></li>
+                <li><a class menulink href="keyboard.html">Keyboard Info</a></li>
+                <li><a class menulink href="monitor.html">Monitor Info</a></li>
+                <li><a class menulink href="headset.html">Headset Info</a></li>
+                <li><a class menulink href="mousepad.html">Mousepad Info</a></li>
+            </ul>
+            <div id="article">
+                <h2>JinJerry's Daily Valorant</h2>
+                <p>이 페이지에서는 <u>개발자이자 유튜브 쇼츠 제작자</u>인 <strong>JinJerry</strong>의 간단한 발로란트 일기장이자 설정 공유 사이트입니다
+                </p>
+                <img src="stats_11_13.png" width="50%">
+                <p>현재 날짜인 <u>2024년 11월 13일</u> 기준으로 달성한 게임 내용/스텟입니다
+                </p>
+                <p>
+                오늘도 발로란트에서 한숨을 한 바가지 쉬고야 말았다. 처음엔 그저 친구들과 가볍게 몇 판 하자고 시작한 거였는데, 왜인지 오늘은 매 순간이 치열한 전쟁 같았다. 
+                아군이건 적군이건 한 명 한 명 다들 지독하게 집중하는 듯했고, 한치의 실수도 용납되지 않는다는 듯 게임이 흘러갔다. 특히 12-12로 연장전으로 넘어갈 때 느껴졌던 그 묵직한 긴장감은 잊을 수가 없다. 
+                팀원들과 합을 맞추며 "이제 다섯 초 남았으니까 B사이트로 푸쉬 들어가자"라는 목소리가 들리면, 마음속에 작은 불씨가 타오르는 기분이 들곤 했다.
+                그런데 오늘은 에임이 너무 흔들렸다. 적과 마주칠 때마다 손이 떨려 제대로 조준조차 하지 못했고, 그런 상황이 반복되다 보니 점점 자책만 늘어갔다. 
+                마침내 내가 결정적인 순간에 놓친 헤드샷 하나 때문에 게임이 끝나버렸다. 팀 채팅창에는 “괜찮아. 다들 그럴 때도 있는 거야”라는 따뜻한 응원의 말도 있었지만, 스스로의 부족함이 크게 느껴져서인지 쉽게 마음을 추스를 수 없었다.
+                발로란트를 하다 보면, 이런 순간에 무너지고 싶어지다가도, 불꽃이 다시 타오르는 순간이 있다. 
+                매치가 끝난 후, 다시 한번 에임 트레이닝에 들어가서 "이번엔 반드시 더 나아질 거야"라고 다짐했다. 언젠가는 이런 자책을 넘어서 더 강해진 내가 이 게임에서 주어진 모든 도전을 넘길 수 있길 바라며... 오늘의 일기를 마친다.   
+                </p>
+        <input type="button" value="밤" onclick="
+        document.querySelector('body').style.backgroundColor='black';
+        document.querySelector('body').style.color='white';
+        ">
+        <input type="button" value="아침" onclick="
+        document.querySelector('body').style.backgroundColor='white';
+        document.querySelector('body').style.color='black';
+        ">
+            </div>
+        </div>
     </body>
 </html>
